@@ -79,7 +79,7 @@ span {
 	bottom: 0;
 	right: 0;
 	left: 0;
-	height: 50%;
+	height: 65%;
 	width: 100vw;
 }
 
@@ -131,7 +131,10 @@ span {
 }
 
 #isPlace {
-	height: 33px;
+	position: absolute;
+	top: 30px;
+	right: 0;
+	left: 0;
 }
 
 .buttons {
