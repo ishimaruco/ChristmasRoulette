@@ -14,6 +14,7 @@ body {
 	overflow: hidden;
 	margin: 0 auto;
 	line-height: normal;
+	-webkit-text-size-adjust:100%
 }
 
 header {
@@ -168,6 +169,30 @@ span {
 	color: #fff;
 	opacity: 1;
 	cursor : pointer;
+}
+
+/* iPhone 3G/3GS CSS */
+@media only screen and (max-device-width: 480px) and (-webkit-device-pixel-ratio: 1) {
+	a {
+		font-size: 15px;
+	}
+}
+
+/* iPhone 4 CSS */
+@media only screen and (max-device-width: 480px) and (-webkit-device-pixel-ratio: 2) {
+	a {
+		font-size: 15px;
+	}
+}
+
+/* スマホ横長の場合 */
+@media only screen and (orientation : landscape) {
+	img {
+		line-height: 60px;
+	}
+	footer {
+		top: 100%;
+	}
 }
 
 @media screen and (max-width: 1200px) {
