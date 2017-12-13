@@ -190,6 +190,9 @@ span {
 	img {
 		line-height: 60px;
 	}
+	p {
+		color: red;
+	}
 	footer {
 		top: 100%;
 	}
