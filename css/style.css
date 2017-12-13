@@ -190,12 +190,6 @@ span {
 	img {
 		line-height: 60px;
 	}
-	p {
-		color: red;
-	}
-	footer {
-		top: 100%;
-	}
 }
 
 @media screen and (max-width: 1200px) {
