@@ -4,9 +4,10 @@ var isStart = false;
 var roulette = document.getElementById('roulette');
 var place = '';
 var intervalID = -1;
+var spotList = [];
 
 // 行きたい場所を配列にぶち込む
-var spotList = [
+spotList = [
 					'<a href="http://colopl.co.jp/news/pressrelease/2017103001.php" target="_blank">恵比寿「コロプラキャナルウォーク」:イルミネーション</a>',
 					'<a href="http://www.tokyo-odaiba.net/rainbow/hanabi2017.html" target="_blank">お台場「レインボー花火」:花火</a>',
 					'<a href="https://www.enjoytokyo.jp/museum/event/1372777/" target="_blank">浅草橋「まるっと小動物展」:動物</a>',
