@@ -66,6 +66,10 @@ h1, p , a {
 	font-family: "Sawarabi Gothic";
 }
 
+span {
+	font-size: 8px;
+}
+
 .wapper {
 	position: absolute;
 	margin: auto;
