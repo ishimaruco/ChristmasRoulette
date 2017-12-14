@@ -37,7 +37,7 @@ h1{
 	font-size: 15px;
 }
 
-h1:before, h1:after{
+h1:before, h1:after {
 	content: '';
 	position: absolute;
 	top: 50%;
@@ -55,7 +55,7 @@ h1 , p , a:link {
 	color: #808080
 }
 
-img{
+img {
 	width: auto;
 	max-height: 90px;
 }
