@@ -30,22 +30,22 @@ footer {
 }
 
 h1{
-position: relative;
-display: inline-block;
-padding: 0 55px;
-margin-top: 100px;
-font-size: 15px;
+	position: relative;
+	display: inline-block;
+	padding: 0 55px;
+	margin-top: 100px;
+	font-size: 15px;
 }
 
-h1:before, h1:after{
-content: '';
-position: absolute;
-top: 50%;
-display: inline-block;
-width: 45px;
-height: 2px;
-border-top: solid 1px #808080;
-border-bottom: solid 1px #808080;
+h1:before, h1:after {
+	content: '';
+	position: absolute;
+	top: 50%;
+	display: inline-block;
+	width: 45px;
+	height: 2px;
+	border-top: solid 1px #808080;
+	border-bottom: solid 1px #808080;
 }
 
 h1:before {left:0;}
@@ -55,7 +55,7 @@ h1 , p , a:link {
 	color: #808080
 }
 
-img{
+img {
 	width: auto;
 	max-height: 90px;
 }
@@ -191,7 +191,7 @@ span {
 }
 
 /* スマホ横長の場合 */
-@media only screen and (max-device-width:480px) and (orientation:landscape) {
+@media only screen and (max-device-width: 812px) and (orientation:landscape) {
 	img {
 		line-height: 60px;
 		max-height: 50px;
