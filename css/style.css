@@ -57,7 +57,7 @@ h1 , p , a:link {
 
 img{
 	width: auto;
-	max-height: 150px;
+	max-height: 90px;
 }
 
 a:visited {
@@ -123,11 +123,14 @@ span {
 	font-size: 28px;
 	font-weight: bold;
 	width: 100%;
-	height: 100%;
+	height: 50%;
+	display: table;
+	margin-right: auto;
+	margin-left: auto;
+  /*border: 1px dashed #999;*/
 }
 
 #roulette p {
-	padding: 30px 40px;
 	margin: 30px;
 	word-wrap:break-word;
 }
@@ -140,6 +143,8 @@ span {
 }
 
 .buttons {
+	width: 100%;
+	height: 50%;
 	text-align:center;
 	display: block;
 }
@@ -186,9 +191,32 @@ span {
 }
 
 /* スマホ横長の場合 */
-@media only screen and (orientation : landscape) {
+@media only screen and (max-device-width:480px) and (orientation:landscape) {
 	img {
 		line-height: 60px;
+		max-height: 50px;
+	}
+	h1 {
+		margin: 0 auto;
+	}
+	#roulette p {
+		margin: 0;
+		padding-right: 20px;
+		padding-left: 20px;
+		vertical-align: middle;
+	}
+	#roulette {
+		height: 30%;
+		display: table;
+	}
+	.main {
+		height: 100%;
+	}
+	.buttons {
+		height: 70%;
+	}
+	#isPlace {
+		top: 20px;
 	}
 }
 
@@ -204,7 +232,7 @@ span {
 	}
 	img {
 		width: auto;
-		max-height: 90px;
+		max-height: 50px;
 	}
 }
 
