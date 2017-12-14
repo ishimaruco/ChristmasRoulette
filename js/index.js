@@ -28,7 +28,7 @@ function clickedStart() {
 	isStart = true;
 	startBtn.disabled = "disabled";
 	intervalID = setInterval(function() {
-		if(isStart==true) {
+		if(isStart == true) {
 			place = spotList[Math.floor( Math.random() * spotList.length )];
 			roulette.className = 'name';
 			document.getElementById("isPlace").innerHTML = place;
