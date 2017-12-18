@@ -28,7 +28,7 @@ function clickedStart() {
 	isStart = true;
 	startBtn.disabled = "disabled";
 	intervalID = setInterval(function() {
-		if(isStart==true) {
+		if(isStart === true) {
 			place = spotList[Math.floor( Math.random() * spotList.length )];
 			roulette.className = 'name';
 			document.getElementById("isPlace").innerHTML = place;
@@ -42,7 +42,7 @@ function clickedStop() {
 	clearTimeout(intervalID);
 	startBtn.disabled = "";
 	isStart = false;
-	if(place == '') {
+	if(place === '') {
 		alert("スタートボタンを押してからストップボタンを押してね！");
 	} else {
 // 結果を画面に表示
