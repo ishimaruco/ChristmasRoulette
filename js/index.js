@@ -27,7 +27,7 @@ spotList = [
 function clickedStart() {
 	'use strict';
 	isStart = true;
-	startBtn.disabled = "disabled";
+	startBtn.disabled = true;
 	intervalID = setInterval(function() {
 		if(isStart === true) {
 			place = spotList[Math.floor( Math.random() * spotList.length )];
